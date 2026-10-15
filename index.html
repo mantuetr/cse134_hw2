@@ -12,6 +12,12 @@
     </style>
 </head>
 <body>
+    <noscript>
+        <p>Welcome to A Little World of Mine!
+           This website works without JavaScript,
+           but some optional features may be unavailable.</p>
+    </noscript>
+
     <header>
         <a href="index.html" aria-label="Back to Home">
             <svg 
@@ -28,6 +34,10 @@
         </a>
         <h1>A Little World of Mine</h1>
         <p>I · Me · Myself · Mine</p>
+
+        <dialog open>
+            <p>Welcome to my little world!</p>
+        </dialog>
 
         <nav aria-label="Main navigation">
             <a href="index.html" aria-current="page">Home</a> |
@@ -126,5 +136,17 @@
             A Little World of Mine | By Lisa with HTML
         </p>
     </footer>
+
+    <hello-world></hello-world>
+
+    <script>
+        class HelloWorld extends HTMLElement {
+            connectedCallback() {
+                console.log("Hello World!");
+            }
+        }
+
+        customElements.define("hello-world", HelloWorld);
+    </script>
 </body>
 </html>
