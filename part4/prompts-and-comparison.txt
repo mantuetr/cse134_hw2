@@ -1,0 +1,12 @@
+Comparison: 
+At first, for the hand written one, I wrote it basically. I just have the HTML, then a header, a main, and a footer.
+And, I divided in into section also have heading for each section. For the basic ai, I copied my handwriting text 
+and asked it to convert to HTML. It gave the same thing for me. It did not change anything, it took out my HTML comment.
+For the directed ai, I asked it to update the HTML to look better. So, it made the h1 heading to the middle, highlight each heading
+section. It also made the box around each section for easier look. And, it had a fancier footer. 
+
+I accept the section tag because it helps to organize each section with a specific heading. It makes the the website easier to understand.
+The other tags I accept are the h1, h2, h3 tag because they create a clear hierarchy. 
+
+I think the strongest version is the directed ai because it makes the website not too plain, but not too complicated. An improvement I would make
+the h2 heading to the middle, and make the h1 heading different color. 
